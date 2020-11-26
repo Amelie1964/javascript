@@ -22,8 +22,12 @@ if(login=="admin" || mdp=="admin"){//si au moins une condition est validée, ça
 
 /*-----------Opérateur NON(NOT)----------------*/
 
-if(login=="admin"! mdp=="admin"){//si les deux conditions ne sont pas vérifiées, ça renvoie TRUE.
+if(!(login=="admin" && mdp=="admin")){//si les deux conditions ne sont pas vérifiées, ça renvoie TRUE.
 
+}
+
+if(!(login=="admin" || mdp=="admin")){
+console.log()
 }
 
 if((A)&&(B)){
@@ -40,7 +44,7 @@ if((A)||(B)){
 //si A est faux et B est faux => renvoie FALSE
 }
 
-if((A)!(B)){
+if(!(A)&&(B)){
 //si A est vrai et B est vrai=> renvoie FALSE
 // si A est vrai et B est faux => renvoie FALSE
 //si A est faux et B est vrai => renvoie FALSE
