@@ -37,7 +37,7 @@ if((!isNaN(nb1)) && (!isNaN(nb2))){
 //Autre manière de faire le test.
 
 if((!isNaN(nb1)) && (!isNaN(nb2))){//début de condition1
-    else if(nb1<nb2){
+    }else if(nb1<nb2){
         document.write("le premier chiffre est inférieur au deuxième chiffre");
     }else if(nb1>nb2){
         document.write("le premier chiffre est supérieur au deuxième chiffre");  
@@ -50,4 +50,4 @@ if((!isNaN(nb1)) && (!isNaN(nb2))){//début de condition1
     /* la fin de la condition1 */}else{
         console.log("vous n'avez pas saisi de chiffres");
     }
-}
+
