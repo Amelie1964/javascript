@@ -70,3 +70,33 @@ for(var argent=1000;argent<=2000;argent=argent+50){
 i=i+1;
 }
 document.write("le nombre de mois pour passer de 1000 euros à 2000 euros est de "+i+" <br>");
+
+// COURS DE CE LUNDI 30 NOVEMBRE 2020
+
+//La boucle WHILE ********** 
+/*syntaxe de DO WHILE
+ do{
+    instruction1......
+    var nb=1;
+    }while(condition1);
+*/
+
+document.write("<h1>-------------------Boucle WHILE---------------------------</h1>")
+var nb1=10;
+while(nb1<10){//tant que la valeur de la variable nb1 est inferieure à 10, on exécute ces instructions
+    document.write(nb1+"<br>");
+    nb1++;    // ----> 8 et 9 vont s'affichen dans la page html
+}
+
+document.write("<h3>-------------------Boucle DO WHILE---------------------------</h3>")
+//avec DO WHILE, on exécute au moins une fois les instructions avant de vérifier la condition.
+var nb2=10;
+do{//exécute l'instruction ci-dessous
+    document.write(nb2+"<br>");//  ----> 8,9 vont s'afficher dans la page html
+    nb2++;
+}while(nb2<10); //
+
+
+
+
+

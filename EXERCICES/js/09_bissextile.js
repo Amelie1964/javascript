@@ -18,3 +18,5 @@ if(!isNaN(annee)){ // on exécute cette condition si et seulement si la variable
 }else{// on exécute cette instruction si la variable année n'est pas de type number
     document.write("la valeur de l'année n'est pas un nombre");
 }
+
+//

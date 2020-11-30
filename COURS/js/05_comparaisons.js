@@ -45,8 +45,8 @@ console.log("les deux ");
 /*SYNTHÈSE
 On a 4 opérateurs de comparaison :
 == égal à (si la valeur est égale à),
-!= not égal à (si la valeur est different à),
-=== strictement gal a (si la variable est egale en terme de valeyr et de type)
+!= not égal à (si la valeur est différente de ),
+=== strictement égal à (si la variable est égale en terme de valeur et de type)
 !== strictement différent à (ie si la variable est différente de l'autre soit par le type, soit par la valeur, soit par les deux).
 */
 
